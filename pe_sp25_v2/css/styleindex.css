@@ -1,0 +1,217 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* header */
+.header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.header-child {
+	flex-basis: 25%;
+}
+
+.header-child p {
+	font-size: 50px;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+/* navbar */
+.navbar ul {
+	display: flex;
+	height: 50px;
+	font-size: 20px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	background-color: #ef7429;
+}
+.navbar ul li {
+	list-style-type: none;
+}
+.navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+/* best seller */
+.best_seller {
+	width: 100%;
+}
+
+.best_seller h1 {
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+	font-size: 50px;
+}
+
+.best_seller-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 30px;
+}
+.best_seller-img .down {
+	padding-top: 200px;
+}
+
+.best_seller-text {
+	width: 400px;
+	font-style: italic;
+	padding: 20px;
+	color: #fff;
+	background-color: #ef7429;
+	text-wrap: wrap;
+	font-size: 25px;
+	line-height: 1.8;
+	text-align: center;
+	letter-spacing: 1.5px;
+	position: absolute;
+	left: 1150px;
+	top: 360px;
+}
+
+/* banner */
+.banner img {
+	width: 100%;
+	margin: 30px 0;
+}
+
+/* discount */
+.discount h1 {
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+	font-size: 50px;
+}
+
+.discount-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.discount-content-child {
+	flex-basis: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.discount-text {
+	box-sizing: border-box;
+	align-items: flex-start;
+	padding: 50px 30px;
+
+	gap: 30px;
+	font-size: 30px;
+}
+.discount-text h2 {
+	color: #ef7429;
+}
+
+.discount-text .long {
+	text-align: justify;
+	word-spacing: 5px;
+}
+
+/* register */
+.register {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 5.5fr 4.5fr;
+}
+
+.register h1 {
+	text-align: center;
+	padding: 10px;
+	margin: 30px;
+	font-size: 50px;
+	grid-column: 1/3;
+	grid-row: 1;
+}
+
+.register-img {
+	box-sizing: border-box;
+	padding: 20px;
+	/* padding-right: 140px; */
+}
+.register-img img {
+	width: 100%;
+}
+
+.register-form {
+	box-sizing: border-box;
+	height: 100%;
+	padding: 20px 40px;
+}
+.register-form div {
+	padding: 30px;
+	align-items: center;
+}
+.register-form-title {
+	background-color: #0ec0c3;
+	color: #fff;
+	text-align: center;
+}
+.register-form-choice {
+	background-color: #ebebeb;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+}
+.register-form-choice label {
+	width: 150px;
+}
+.register-form-choice select,
+.register-form-choice input {
+	height: 30px;
+	/* width: 500px; */
+}
+
+.submit {
+	height: 130px;
+	width: auto;
+	text-align: center;
+	background-color: #ebebeb;
+}
+
+.submit p {
+	margin: 0 auto;
+	padding: 20px 50px;
+	color: #fff;
+	justify-self: center;
+	background-color: #bbea00;
+	border-radius: 10px;
+}
+
+.submit p:hover {
+	cursor: pointer;
+}
+
+/* footer */
+.footer {
+	background-color: #373737;
+	margin: 0;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	font-size: 20px;
+}
+
+.footer p,
+.footer h5 {
+	margin: 0;
+}
